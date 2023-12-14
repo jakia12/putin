@@ -25,7 +25,8 @@
         width: 100%;
       }
 
-      .img_cont {
+      .img_cont,
+      .img_gif_box {
         display: flex;
         align-items: cener;
       }
@@ -40,6 +41,10 @@
       .video-container video {
         width: 100%;
         height: auto;
+      }
+      .gif_img {
+        width: 100%;
+        max-width: 50% !important;
       }
       @media screen and (max-width: 768px) {
         .img_cont {
@@ -1187,6 +1192,13 @@
           Your browser does not support the video tag.
         </video>
       </div>
+
+      <!-- img box gif -->
+      <div class="img_gif_box">
+        <img src="/images/g2.gif" alt="" class="gif_img" />
+        <img src="/images/g6.gif" alt="" class="gif_img" />
+      </div>
+
       <div
         class="elementor-element elementor-element-87756ae e-con-full e-flex e-con e-parent"
         data-id="87756ae"
